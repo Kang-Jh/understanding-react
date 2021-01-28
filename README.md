@@ -27,8 +27,7 @@ What happen when ReactDOM.render(<App />, container)?
 
 If ReactDOM.hydrate is used or container is document element or has child, then hydration is going to occur. Don't mind hydration if you're new to React.
 
-React makes container react root following below orders.
-**Remark: fiberRoot is from react-reconciler which is the core of React. So it will be described later.**
+React makes container react root following below orders. **fiberRoot is from react-reconciler which is the core of React. So it will be described later.**
 
 1. When ReactDOM.render or ReactDOM.hydrate are invoked, React creates fiberRoot and add it to container's property(named with prefixed string + randomKey, so it is likely unique) therefore container is marked and then listens DOM events.
 2. Assign fiberRoot to \_internalRoot property of an object(This object is react root). react root has render method and unmount method. render method takes children as a argument and then update it using reconciler.
