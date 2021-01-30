@@ -8,10 +8,6 @@ It doesn't contain Class Component related modules yet.
 
 **Remember! React is a pure javascript library which means your code runs javascript code not React code**
 
-## Feedback
-
-I'm not a native English speaker and live far from the English. So Grammar and choice of words might be inappropriate. And also I'm new to programming I might have wrong understanding about React. So if you wanna feedback about anything. Please let me know.
-
 ## React(./react) Summary
 
 Function Components return or Class Components' render method returns ReactElement that is plain javascript object
@@ -27,7 +23,7 @@ What happen when ReactDOM.render(<App />, container)? Most of the time ReactDOM.
 
 If ReactDOM.hydrate is used or container is document element or has child, then hydration is going to occur. Don't mind hydration if you're new to React.
 
-React makes container react root following below orders. **FiberRoot is from react-reconciler which is the core of React. So it will be described later.**
+React makes container react root following below orders.
 
 1. When ReactDOM.render or ReactDOM.hydrate are invoked, React creates FiberRoot and add it to container's property(named with prefixed string + randomKey, so it is unique) therefore container is marked as root and then listens DOM events.
 2. Assign fiberRoot to \_internalRoot property of an object(This object is react root). react root has render method and unmount method. render method takes children as a argument and then update it using reconciler.
@@ -55,6 +51,10 @@ If you want to know how hooks are implemented, reading following articles may he
 
 1. [Under the hood of React's hooks](https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba)
 2. [Deep dive: How do React hooks really work?](https://www.netlify.com/blog/2019/03/11/deep-dive-how-do-react-hooks-really-work/)
+
+## Feedback
+
+I'm not a native English speaker and live far from the English. So Grammar and choice of words might be inappropriate. And also I'm new to programming I might have wrong understanding about React. So if you wanna feedback about anything. Please let me know.
 
 ## License of Packages
 
