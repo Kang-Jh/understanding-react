@@ -64,8 +64,13 @@ function createRootImpl(container, tag, options) {
       options.hydrationOptions != null &&
       options.hydrationOptions.mutableSources) ||
     null;
-  const root = createContainer(container, tag, hydrate, hydrationCallbacks);
-  markContainerAsRoot(root.current, container);
+  const root: FiberRoot = createContainer(
+    container,
+    tag,
+    hydrate,
+    hydrationCallbacks
+  );
+  markContainerAsRoot((root.current: Fiber), container);
 
   const rootContainerElement =
     container.nodeType === COMMENT_NODE ? container.parentNode : container;
