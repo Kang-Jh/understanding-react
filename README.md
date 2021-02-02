@@ -10,10 +10,10 @@ It doesn't contain Class Component related modules yet.
 
 ## React(./react) Summary
 
-Function Components return or Class Components' render method returns ReactElement that is plain javascript object
+Function Components return or Class Components' render method returns ReactElement that is a plain javascript object
 (Of course, ReactElement has special property which value is symbol that represents ReactElement).
 
-ReactCurrentOwner and ReactCurrentDispatcher and ReactCurrentBatchConfig are plain object. But their property named "current" will be changed by React Reconciler(./react-reconciler) or ReactDOM(./react-dom).
+ReactCurrentOwner and ReactCurrentDispatcher and ReactCurrentBatchConfig are plain objects. But their property named "current" will be changed by React Reconciler(./react-reconciler) or ReactDOM(./react-dom).
 
 React Hooks uses ReactCurrentDispatcher (dispatcher will be changed by React Reconciler has methods named as same as React Hooks APIs)
 
