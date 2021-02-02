@@ -40,7 +40,7 @@ I clearly failed to understand Reconciler code itself. My ability to understand 
 
 You should read articles and see video on following order.
 
-1. [Reconciliation](https://React.org/docs/reconciliation.html)
+1. [Reconciliation](https://reactjs.org/docs/reconciliation.html)
 2. [React Components, Elements, and Instances](https://reactjs.org/blog/2015/12/18/react-components-elements-and-instances.html)
 3. [Building React From Scratch](https://www.youtube.com/watch?v=_MAD4Oly9yg)
 4. [Stack Reconciler](https://reactjs.org/docs/implementation-notes.html)
