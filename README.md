@@ -42,7 +42,7 @@ You should read articles and see video on following order.
 
 1. [Reconciliation](https://reactjs.org/docs/reconciliation.html)
 2. [React Components, Elements, and Instances](https://reactjs.org/blog/2015/12/18/react-components-elements-and-instances.html)
-3. [Building React From Scratch](https://www.youtube.com/watch?v=_MAD4Oly9yg)
+3. Building React From Scratch - [Youtube](https://www.youtube.com/watch?v=_MAD4Oly9yg) & [Source Code](https://github.com/zpao/building-react-from-scratch)
 4. [Stack Reconciler](https://reactjs.org/docs/implementation-notes.html)
 5. [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
 6. [Inside Fiber](https://blog.ag-grid.com/inside-fiber-an-in-depth-overview-of-the-new-reconciliation-algorithm-in-react/)
